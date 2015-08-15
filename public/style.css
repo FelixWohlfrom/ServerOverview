@@ -1,0 +1,63 @@
+#page {
+	width: 100%;
+}
+
+#loaderIcon {
+	text-align:center;
+}
+
+#serverStatus {
+	text-align:center;
+}
+
+.hostname {
+	width: 15%;
+	float: left;
+}
+
+.offline {
+	display: hidden;
+	color: #b00;
+}
+
+.online {
+	display: hidden;
+	color: #0b0;
+}
+
+.medium {
+	background: #dd0;
+}
+
+.high {
+	background: #b00;
+}
+
+.multiArray {
+	float: left;
+}
+
+.status {
+	float: left;
+	width: 20%;
+	margin-left: 10px;
+}
+
+.detail {
+	float: left;
+	margin-left: 5px;
+	text-align: left;
+}
+
+.label {
+	float: left;
+	color: #383838;
+    margin-left: 40%;
+    margin-top: 5px;
+	font-weight: bold;
+	text-shadow: 1px 1px 0 #fff;
+}
+
+.clear {
+	clear: both;
+}

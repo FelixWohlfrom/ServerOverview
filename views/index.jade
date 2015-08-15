@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title='Server status'
+    script(type='text/javascript', src='/jquery-1.11.3.min.js')
+    script(type='text/javascript', src='/jquery-ui-1.11.4/jquery-ui.min.js')
+    link(rel='stylesheet', href='/jquery-ui-1.11.4/jquery-ui.min.css')
+    
+    script(type='text/javascript', src='/socket.io/socket.io.js')
+    script(type='text/javascript', src='/overview.js')
+    link(rel='stylesheet', href='/style.css')
+   
+  body
+    div(id='page')  
+      div(id='serverStatus')
+      
+      div(id='loaderIcon')
+        img(src='loader.gif', alt='Loading status, please wait...' title='Loading status, please wait...')
+        
+        noscript
+            p(class='ui-helper-reset ui-widget') Please enable javascript to view server status
